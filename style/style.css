@@ -1,0 +1,80 @@
+.banner-area{
+    background-image: url(images/1.jpg);
+    width: 100%;
+    height: auto;
+}
+
+.fixed-shape{
+    background-image: url(images/8.png);
+    width: 100%;
+    height: auto;
+    filter: grayscale(10);
+
+}
+.ab-img{
+    background-image: url(images/2.jpg);
+    visibility: visible;
+    
+}
+
+.skill-1-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.skill-hero-image{
+    height: 600px;
+}
+
+.skill-2{
+    padding-top: 20px;
+}
+.skill-3{
+    padding-top: 20px;
+}
+.bar-box{
+    width: 100%;
+    padding: 30px 0;
+}
+.bar-1{
+    position: relative;
+    background: rgb(53, 49, 49); 
+}
+.bar-1 div{
+    position: relative;
+    width: 88%;
+    height: 8px;
+    background-color: #FF4522;
+}
+.bar-2{
+    position: relative;
+    background: rgb(53, 49, 49);
+}
+.bar-2 div{
+    position: relative;
+    width: 95%;
+    height: 8px;
+    background-color: #FF4522;
+}
+.bar-3{
+    position: relative;
+    background: rgb(53, 49, 49);
+}
+.bar-3 div{
+    position: relative;
+    width: 70%;
+    height: 8px;
+    background-color: #FF4522;
+}
+
+.expertise-content{
+    background-image: url(images/15.jpg);
+}
+
+
+.partners{
+    background-image: url(images/4-bg.png);
+    background-color: #FF4522;
+}
