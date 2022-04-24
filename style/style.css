@@ -4,6 +4,23 @@
     height: auto;
 }
 
+
+/*Nav.....*/
+
+.ddpr{
+    position: relative;
+    display: block;
+}
+.ddpa{
+    position: absolute;
+    display: none;
+    min-width: 100px;
+    z-index: 1;
+}
+.ddpr:hover .ddpa{
+display: block;
+}
+
 .fixed-shape{
     background-image: url(images/8.png);
     width: 100%;
