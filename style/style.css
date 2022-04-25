@@ -212,6 +212,60 @@ list-style: none;
     
     }
    
+
+    /*service area*/
+.service-area{
+    padding: 120px 0px;
+}
+    .info i{
+        display: inline-block;
+    font-size: 45px;
+    margin-bottom: 30px;
+    height: 90px;
+    width: 90px;
+    line-height: 83px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(238, 40, 82, 0.07);
+    color: #ee2852;
+    
+    }
+    .info a{
+        text-decoration: none;
+        color: #232323;
+        
+    }
+    .info a h4{
+        padding-bottom: 15px;
+        font-weight: 600;
+    }
+    .info p{
+       color: #666666;
+       font-weight: 400;
+    }
+    .site-heading{
+        padding: 10px 0;
+    }
+    .site-heading h4 {
+        color: #ee2852;
+        background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+}
+
+.site-heading h2{
+    color: #232323;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.site-heading p{
+    color: #666666;
+       font-weight: 400;
+       padding: 10px 0;
+}
 .fixed-shape{
     background-image: url(images/8.png);
     width: 100%;
