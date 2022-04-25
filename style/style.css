@@ -1,9 +1,83 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
 .banner-area{
     background-image: url(images/1.jpg);
     width: 100%;
     height: auto;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 13px;
+    letter-spacing: .06em;
+    padding: 35px 15px;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ee2852;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ee2852;
+   
+}
+.dropdown-menu li a{
+    
+     
+}
+.dropdown-items {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    z-index: 10;
+    padding:10px 15px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 250px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(245, 244, 244);
+    
 
+}
+.dropdown-items:hover{
+    color: #333333;
+}
+.dropdown-menu{
+    padding: 0;
+    box-shadow: 0 5px 50px 0 rgb(0 0 0 / 15%);
+}
 
 /*Nav.....*/
 
@@ -17,8 +91,13 @@
     min-width: 100px;
     z-index: 1;
 }
+
 .ddpr:hover .ddpa{
 display: block;
+}
+
+.pages-box{
+    
 }
 
 .fixed-shape{
