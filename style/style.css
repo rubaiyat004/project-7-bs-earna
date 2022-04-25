@@ -146,6 +146,71 @@ list-style: none;
         transition: .7s;
         
     }
+
+
+    /*banner area*/
+
+    .banner-area{
+        padding: 200px 0;
+    }
+    .banner-area h4{
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 400;
+        
+    }
+
+    .banner-area h2{
+        font-size: 70px;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 1.1;
+        padding: 30px 0;
+    }
+    .banner-area h2 span{
+        font-weight: 300;
+    }
+    .banner-btn{
+        color:#ffffff;
+        border: 2px solid #ee2852;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .btn-group-lg>.btn, .btn-lg {
+        color: #ffffff;
+        border: 2px solid #ee2852;
+        background-color: #ee2852;
+        overflow: hidden;
+        padding: 17px 40px;
+        position: relative;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .btn-group-lg>.btn, .btn-lg:hover{
+        border: 2px solid #ffffff;
+        color: #ee2852;
+        background-color: #ffffff;
+
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: transparent;
+        margin: 10px 5px;
+        background-color: #007bff;
+        display: block;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        display: inline-flex;
+        left: 550px;
+        top: 50px;
+        
+    
+    }
+   
 .fixed-shape{
     background-image: url(images/8.png);
     width: 100%;
