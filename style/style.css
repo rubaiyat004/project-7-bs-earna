@@ -34,11 +34,19 @@
     width: 100%;
     height: auto;
 }
+.nav-contact{
+    margin-right: 30px;
+    padding: 0px 10px;
+}
+.navbar-brand {
+    padding: 0px 10px;
+    margin-right: 50px;
+}
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.55);
     font-size: 13px;
     letter-spacing: .06em;
-    padding: 35px 15px;
+    padding: 30px 15px;
     font-family: 'Poppins',sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -49,10 +57,6 @@
 .navbar-light .navbar-nav .nav-link:hover {
     color: #ee2852;
    
-}
-.dropdown-menu li a{
-    
-     
 }
 .dropdown-items {
     color: #333333;
@@ -77,6 +81,7 @@
 .dropdown-menu{
     padding: 0;
     box-shadow: 0 5px 50px 0 rgb(0 0 0 / 15%);
+    z-index: 1000;
 }
 
 /*Nav.....*/
@@ -97,9 +102,50 @@ display: block;
 }
 
 .pages-box{
+   
+    border-right: 1px solid rgb(245, 244, 244);
     
+
+}
+.pages-box .title{
+    color: #333333;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
 
+.mega-col-1 li{
+list-style: none;
+}
+.mega-col-1{
+    padding-bottom: 30px;
+    
+}
+.mega-col-1 li a{
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 10px 0;
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+    
+    
+    }
+    .mega-col-1 li a:hover{
+        color: #1273eb;
+        margin-left: 10px;
+        transition: .7s;
+        
+    }
 .fixed-shape{
     background-image: url(images/8.png);
     width: 100%;
