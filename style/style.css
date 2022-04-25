@@ -31,6 +31,7 @@
 
 .banner-area{
     background-image: url(images/1.jpg);
+    background-size: cover;
     width: 100%;
     height: auto;
 }
@@ -266,19 +267,122 @@ list-style: none;
        font-weight: 400;
        padding: 10px 0;
 }
-.fixed-shape{
+/*about-area*/
+
+
+.about-area{
     background-image: url(images/8.png);
+    background-size: cover;
     width: 100%;
     height: auto;
-    filter: grayscale(10);
+    backdrop-filter: invert(100%);
+    padding: 120px 0;
 
+}
+
+.about-area .info h4{
+    color: #ee2852;
+        background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+.about-area .info h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.about-area .info p{
+    font-weight: 400;
+    margin-top: 15px;
+    color: #a0a2a6;
+}
+.about-area .info h5{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.about-area .info ul{
+    display: inline-flex;
+    margin-right: -15px;
+    
+    
+}
+.about-info{
+    padding: 20px 0;
+}
+.about-area .info ul li{
+    display: inline-flex;
+    position: relative;
+    right: 20px;
+    
+}
+.about-area .info ul li i{
+    height: 40px;
+    width: 40px;
+    color: #ee2852;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    
+}
+.btn-group-sm>.btn, .btn-sm  {
+    
+    color: #232323;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 17px 40px;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 100;
+    text-align: center;
+    align-items: center;
+}
+.btn-group-sm>.btn, .btn-sm:hover{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
 }
 .ab-img{
     background-image: url(images/2.jpg);
     visibility: visible;
+    background-size: cover;
+    
+    
     
 }
+.success-rate{
+    display: inline-flex;
+    align-items: center;
+    background-color: #ee2852;
+    padding: 13px 20px;
+    color: #ffffff;
+    position: relative;
+    right: 60px;
+    
+    text-align: center;
+    justify-content: center;
+}
+.success-rate h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1;
 
+}
+.success-rate i{
+    font-size:65px;
+    color: #ffffff;
+}
 .skill-1-flex{
     display: flex;
     align-items: center;
