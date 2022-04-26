@@ -383,6 +383,30 @@ list-style: none;
     font-size:65px;
     color: #ffffff;
 }
+
+/*expertise area*/
+.expert-area{
+    padding: 100px 0px 50px 0px;
+}
+.expert-area h4{
+    color: #ee2852;
+        background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 20px;
+}
+.expert-area h2{
+    font-size: 36px;
+    color: #232323;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    font-weight: 600;
+}
 .skill-1-flex{
     display: flex;
     align-items: center;
@@ -402,37 +426,92 @@ list-style: none;
 }
 .bar-box{
     width: 100%;
-    padding: 30px 0;
+  
 }
 .bar-1{
     position: relative;
-    background: rgb(53, 49, 49); 
+    height: 2px;
+    background: #e7e7e7; 
 }
 .bar-1 div{
     position: relative;
     width: 88%;
-    height: 8px;
-    background-color: #FF4522;
+    height: 6px;
+    background-color: #ee2852;
+    bottom: 2px;
+    border-radius: 5px;
+}
+.bar-1 div h5{
+    float: right;
+    position: relative;
+    bottom: 45px;
+    font-size: 16px;
+}
+.bar-1 div i{
+    font-size: 14px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    color: #ee2852;
+    left: 20px;
+}
+
+.bar-2 div h5{
+    float: right;
+    position: relative;
+    bottom: 45px;
+    font-size: 16px;
+}
+.bar-2 div i{
+    font-size: 14px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    color: #ee2852;
+    left: 20px;
+}
+
+.bar-3 div h5{
+    float: right;
+    position: relative;
+    bottom: 45px;
+    font-size: 16px;
+}
+.bar-3 div i{
+    font-size: 14px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    color: #ee2852;
+    left: 20px;
 }
 .bar-2{
     position: relative;
-    background: rgb(53, 49, 49);
+    height: 2px;
+    background: #e7e7e7; 
 }
 .bar-2 div{
     position: relative;
     width: 95%;
-    height: 8px;
-    background-color: #FF4522;
+    height: 6px;
+    background-color: #ee2852;
+    bottom: 2px;
+    border-radius: 5px;
 }
+
 .bar-3{
     position: relative;
-    background: rgb(53, 49, 49);
+    height: 2px;
+    background: #e7e7e7; 
 }
 .bar-3 div{
     position: relative;
     width: 70%;
-    height: 8px;
-    background-color: #FF4522;
+    height: 6px;
+    background-color: #ee2852;
+    bottom: 2px;
+    border-radius: 5px;
+}
 }
 
 .expertise-content{
