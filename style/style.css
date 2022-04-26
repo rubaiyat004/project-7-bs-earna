@@ -215,6 +215,12 @@ list-style: none;
    
 
     /*service area*/
+    .service-area div .devider{
+        display: inline-block;
+        width: 50px;
+        height: 2px;
+        background: #ee2852;
+    }
 .service-area{
     padding: 120px 0px;
 }
@@ -639,8 +645,113 @@ list-style: none;
     transform: translateX(-40px);
     color: #ffffff;
     background-position:left;
+    z-index: 1;
+
+}
+
+/*team area*/
+
+.team-area .site-heading h4{
+    color: #ee2852;
+        background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 10px;   
+}
+.team-area .site-heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.team-area {
+padding: 200px 0;
+}
+.team-area div .devider{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: #ee2852;
+    margin-bottom: 50px;
+}
+.team-area .thumb img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border-bottom: 3px solid #ee2852;
+    position: relative;
+}
+.team-area .content a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #232323;;
+}
+.team-area .content span{
+    color: #666666;;
+    font-size: 14px;
+    font-weight: 600;
+}
+.team-items .item .thumb i{
+    width: 40px;
+    height: 40px;
     
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.team-items .thumb img{
+position: relative;
+}
+.team-items .thumb .social-icons{
+    position: absolute;
+    transform: translateX(280px) translateY(-200px);
+}
+.team-items .item .thumb .social i{
+   position: absolute;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10px;
+    
+    z-index: 10;
+    
+    overflow-y: none;
 
     
+   
+}
+.team-items .item .share i{
+   
+    width: 45px;
+    height: 45px;
+    background-color: #ee2852;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    z-index: 10;
+    right: 100px;
+}
+.team-items .item .thumb .insta{
+    background-color: #3f729b;
+    
+    
+}
+.team-items .item .thumb .twit{
+    background-color: #007bff;
+    
+}
+.team-items .item .thumb .fb{
+
+background-color: #0056b3;
 
 }
