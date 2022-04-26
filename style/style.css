@@ -609,7 +609,38 @@ list-style: none;
     z-index: 1;
 }
 
+/*partner area */
+
+
 .partners{
+   
+    align-items: center;
+    padding: 50px 0px;
+    
+    
+
+}
+.partners img{
+    width: 150px;
+    height: auto;
+}
+.partner-area h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.partner-area{
+    
+    background-color: #ee2852;
     background-image: url(images/4-bg.png);
-    background-color: #FF4522;
+    padding: 100px 0px 100px 30px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-40px);
+    color: #ffffff;
+    background-position:left;
+    
+
+    
+
 }
