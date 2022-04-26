@@ -668,6 +668,7 @@ list-style: none;
 }
 .team-area {
 padding: 200px 0;
+background: linear-gradient(90deg, rgba(237,245,255,1) 0%, rgba(204,223,247,1) 100%);
 }
 .team-area div .devider{
     display: inline-block;
@@ -689,7 +690,7 @@ padding: 200px 0;
     color: #232323;;
 }
 .team-area .content span{
-    color: #666666;;
+    color: #666666;
     font-size: 14px;
     font-weight: 600;
 }
@@ -746,20 +747,17 @@ position: relative;
 }
 .team-items .item .thumb .twit{
     background-color: #007bff;
-    
 }
 .team-items .item .thumb .fb{
 
 background-color: #0056b3;
-
 }
-
 .team-items .single-item-1:hover .social-icons .social i{
     transform: translateY(30px);
     opacity: 1;
     transition: all 0.35s ease-in-out;
-
 }
+
 .team-items .single-item-2:hover .social-icons .social i{
     transform: translateY(30px);
     opacity: 1;
@@ -781,4 +779,82 @@ background-color: #0056b3;
 }
 .team-items .single-item-3:hover .social-icons .share i{
     opacity: 0;
+}
+
+/*tesimonial area*/
+
+.testimonial .test-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial .test-img{
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.testimonial .test-desc{
+    backdrop-filter: brightness(101%);
+    border-right: 1px solid #e7e7e7; 
+    
+    padding: 100px 60px 100px 0px;
+
+}
+.testimonial .test-desc h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #232323;
+}
+.testimonial .test-desc p{
+    color: #666666;
+    margin: 0 0 15px;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.testimonial .test-desc span{
+    color: #ee2852;
+    font-weight: 600;
+}
+.testimonial .test-fixed h4{
+    color: #ee2852;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.testimonial .test-fixed h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #232323;
+
+}
+.testimonial .test-fixed p{
+    color: #666666;
+    margin: 0 0 15px;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.testimonial .test-fixed{
+    padding: 100px 0px 100px 30px;
+}
+.carousel-indicators-test [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: transparent;
+        margin: 10px 5px;
+        
+        display: block;
+        border: 3px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        display: inline-flex;
+        z-index: 10;
+        top: 280px;
+        float: right;
+        right: 20px;
 }
