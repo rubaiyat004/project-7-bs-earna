@@ -693,6 +693,9 @@ padding: 200px 0;
     font-size: 14px;
     font-weight: 600;
 }
+.team-area .content{
+    padding: 30px 0;
+}
 .team-items .item .thumb i{
     width: 40px;
     height: 40px;
@@ -706,6 +709,7 @@ padding: 200px 0;
 }
 .team-items .thumb img{
 position: relative;
+
 }
 .team-items .thumb .social-icons{
     position: absolute;
@@ -717,14 +721,10 @@ position: relative;
     flex-direction: row;
     position: relative;
     margin-bottom: 10px;
-    
     z-index: 10;
-    
-    overflow-y: none;
-
-    
-   
+   opacity: 0;
 }
+
 .team-items .item .share i{
    
     width: 45px;
@@ -736,10 +736,8 @@ position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    
-   
     z-index: 10;
-    right: 100px;
+   
 }
 .team-items .item .thumb .insta{
     background-color: #3f729b;
@@ -754,4 +752,33 @@ position: relative;
 
 background-color: #0056b3;
 
+}
+
+.team-items .single-item-1:hover .social-icons .social i{
+    transform: translateY(30px);
+    opacity: 1;
+    transition: all 0.35s ease-in-out;
+
+}
+.team-items .single-item-2:hover .social-icons .social i{
+    transform: translateY(30px);
+    opacity: 1;
+    transition: all 0.35s ease-in-out;
+
+}
+.team-items .single-item-3:hover .social-icons .social i{
+    transform: translateY(30px);
+    opacity: 1;
+    transition: all 0.35s ease-in-out;
+
+}
+.team-items .single-item-1:hover .social-icons .share i{
+    opacity: 0;
+}
+
+.team-items .single-item-2:hover .social-icons .share i{
+    opacity: 0;
+}
+.team-items .single-item-3:hover .social-icons .share i{
+    opacity: 0;
 }
