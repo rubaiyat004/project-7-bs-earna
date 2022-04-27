@@ -506,14 +506,7 @@ display: block;
 /* expertise area*/
 
 
-.expertise-content{
-    background-image: url(images/15.jpg);
-    background-size: cover;
-    border-radius: 10px;
-    height: auto;
-    box-shadow: #343a40;
-    margin-bottom: 100px;  
-}
+
 
 .expertise-content .single-item h4{
     font-size: 20px;
@@ -1247,7 +1240,26 @@ padding: 0px 0px;
     left: 80px;
     top: 10px;
     
-
+}
+.success-rate {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(238, 40, 82);
+    padding: 13px 4px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 11px;
+    text-align: center;
+    justify-content: center;
+}
+.expertise-content .single-item a{
+    opacity: 1;
+   transform: translateX(20px);
+    
+}
+.expertise-content .single-item .item{
+    padding: 40px 20px;
+    
 }
 .ab-img{
     width: 350px;
@@ -1256,6 +1268,48 @@ padding: 0px 0px;
 .about-info ul{
     display: flex;
     flex-direction: column;
+}
+.expertise-content{
+    background-image: url(images/15.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: #343a40;
+    margin-bottom: 10px;  
+}
+.partner-area{
+    transform: translateX(-20px);
+}
+.partners {
+    
+    padding: 50px 73px;
+    gap: 20px;
+}
+.team-area .thumb img{
+    width: 340px;
+}
+.testimonial .test-desc{
+    backdrop-filter: brightness(101%);
+    border-right: 1px solid #e7e7e7; 
+    
+    padding: 50px 20px 50px 20px;
+
+}
+.carousel-indicators-test [data-bs-target] {
+    
+    top: 400px;
+    right: 130px;
+}
+.testimonial .test-fixed {
+    padding: 50px 20px;
+}
+.blog-items .thumb img{
+    width: 335px;
+    border-radius: 20px;
+
+}
+.footer-bottom .link ul{
+    float: left;
 }
 }
 
@@ -1308,6 +1362,14 @@ padding: 0px 0px;
             top: 50px;
             
         
+        }
+        .expertise-content{
+            background-image: url(images/15.jpg);
+            background-size: cover;
+            border-radius: 10px;
+            height: auto;
+            box-shadow: #343a40;
+            margin-bottom: 100px;  
         }
 }
 
