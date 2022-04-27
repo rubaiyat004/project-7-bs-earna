@@ -28,7 +28,9 @@
     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
-
+.navbar{
+    background: #ffffff;
+}
 .banner-area{
     background-image: url(images/1.jpg);
     background-size: cover;
@@ -43,6 +45,10 @@
     color: #ee2852;
     font-size: 40px;position: relative; top: -5px;
     
+}
+
+nav .navbar .bg-light{
+    background-color: #ffffff;
 }
 .navbar-brand {
     padding: 0px 10px;
@@ -113,25 +119,6 @@ display: block;
     
 
 }
-.pages-box .title{
-    color: #333333;
-    font-weight: 600;
-    margin-top: 0;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    font-size: 18px;
-    padding-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 5px;
-}
-
-.mega-col-1 li{
-list-style: none;
-}
-.mega-col-1{
-    padding-bottom: 30px;
-    
-}
 .mega-col-1 li a{
     text-decoration: none;
     color: #333333;
@@ -139,13 +126,15 @@ list-style: none;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 0;
-    padding: 10px 0;
+    padding: 0px 0;
     text-align: left;
     text-transform: capitalize;
     width: 100%;
-    
-    
+     }
+.mega-col-1 li{
+    list-style: none;
     }
+    
     .mega-col-1 li a:hover{
         color: #1273eb;
         margin-left: 10px;
@@ -1241,3 +1230,55 @@ background-color: #0056b3;
     font-weight: 700;
     color: #ffffff;
 }
+
+@media (min-width:360px){
+    
+   .megamenu .pages-box h6{
+       padding: 3px 5px;
+   }
+   .mega-col-1 li a{
+padding: 0px 0px;
+   }
+   .mega-col-1{
+    padding-bottom: 5px;
+}
+.nav-contact{
+    opacity: 0;
+}
+}
+
+@media (min-width:992px){
+    .pages-box .title{
+        color: #333333;
+        font-weight: 600;
+        margin-top: 0;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+    
+    
+    .mega-col-1 li a{
+        text-decoration: none;
+        color: #333333;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding: 10px 0;
+        text-align: left;
+        text-transform: capitalize;
+        width: 100%;
+         }
+         .megamenu .pages-box h6{
+            margin-left: 25px;
+        }
+        .mega-col-1{
+            padding-bottom: 30px;
+            
+        }
+}
+
