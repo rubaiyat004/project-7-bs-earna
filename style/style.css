@@ -226,6 +226,9 @@ list-style: none;
         height: 2px;
         background: #ee2852;
     }
+    .service-area .info{
+        padding: 30px 0;
+    }
 .service-area{
     padding: 120px 0px;
 }
