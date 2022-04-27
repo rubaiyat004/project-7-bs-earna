@@ -1220,7 +1220,7 @@ padding: 0px 0px;
     padding-bottom: 5px;
 }
 .nav-contact{
-    opacity: 0;
+    display: none;
 }
 .banner-area{
     padding: 20px 30px;
@@ -1257,8 +1257,16 @@ padding: 0px 0px;
    transform: translateX(20px);
     
 }
+.expertise-content .item-middle {
+    border-top: 1px solid #a0a2a6;
+    border-bottom: 1px solid #a0a2a6;
+    border-left: none;
+    border-right: none;
+}
 .expertise-content .single-item .item{
     padding: 40px 20px;
+    
+    
     
 }
 .ab-img{
@@ -1311,6 +1319,13 @@ padding: 0px 0px;
 .footer-bottom .link ul{
     float: left;
 }
+.footer-items .f-title{
+    margin-top: 30px;
+}
+}
+
+@media (min-width: 640px){
+
 }
 
 @media (min-width:992px){
