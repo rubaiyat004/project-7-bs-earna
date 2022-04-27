@@ -1325,7 +1325,24 @@ padding: 0px 0px;
 }
 
 @media (min-width: 640px){
-
+    .expertise-content .single-item .item{
+        padding: 120px 20px 30px 20px;
+        text-align: center;
+     
+    }
+    .ab-img{
+        width: 630px;
+        min-height: 500px;
+        margin-bottom: 30px;
+    }
+    .team-area .thumb img{
+        width: 440px;
+        
+        height: auto;
+    }
+    .team-area{
+        padding: 50px 0;
+    }
 }
 
 @media (min-width:992px){
