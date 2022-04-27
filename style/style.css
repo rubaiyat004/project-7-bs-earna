@@ -189,23 +189,7 @@ display: block;
         background-color: #ffffff;
 
     }
-    .carousel-indicators [data-bs-target] {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: transparent;
-        margin: 10px 5px;
-        background-color: #007bff;
-        display: block;
-        border: 2px solid #ffffff;
-        background-color: transparent;
-        position: relative;
-        display: inline-flex;
-        left: 550px;
-        top: 50px;
-        
     
-    }
    
 
     /*service area*/
@@ -1245,6 +1229,34 @@ padding: 0px 0px;
 .nav-contact{
     opacity: 0;
 }
+.banner-area{
+    padding: 20px 30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    margin: 10px 5px;
+    background-color: #007bff;
+    display: block;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    position: relative;
+    display: inline-flex;
+    left: 80px;
+    top: 10px;
+    
+
+}
+.ab-img{
+    width: 350px;
+    min-height: 300px;
+}
+.about-info ul{
+    display: flex;
+    flex-direction: column;
+}
 }
 
 @media (min-width:992px){
@@ -1279,6 +1291,23 @@ padding: 0px 0px;
         .mega-col-1{
             padding-bottom: 30px;
             
+        }
+        .carousel-indicators [data-bs-target] {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: transparent;
+            margin: 10px 5px;
+            background-color: #007bff;
+            display: block;
+            border: 2px solid #ffffff;
+            background-color: transparent;
+            position: relative;
+            display: inline-flex;
+            left: 550px;
+            top: 50px;
+            
+        
         }
 }
 
