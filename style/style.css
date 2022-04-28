@@ -28,9 +28,11 @@
     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
+
 .navbar{
     background: #ffffff;
 }
+
 .banner-area{
     background-image: url(images/1.jpg);
     background-size: cover;
@@ -346,6 +348,7 @@ display: block;
     background-image: url(images/2.jpg);
     visibility: visible;
     background-size: cover;
+    margin: 0 auto;
     
     
     
@@ -655,7 +658,7 @@ background: linear-gradient(90deg, rgba(237,245,255,1) 0%, rgba(204,223,247,1) 1
     margin-bottom: 50px;
 }
 .team-area .thumb img{
-    width: 350px;
+    width: 440px;
     height: auto;
     border-radius: 10px;
     border-bottom: 3px solid #ee2852;
@@ -717,6 +720,7 @@ position: relative;
     z-index: 10;
    
 }
+
 .team-items .item .thumb .insta{
     background-color: #3f729b;
     
@@ -1209,10 +1213,20 @@ background-color: #0056b3;
 }
 
 @media (min-width:360px){
-    
+    .navbar-light .navbar-nav .nav-link {
+        
+        
+        padding: 2px;
+        
+    }
+   
+    .dropdown-items{
+        padding: 2px 3px;
+    }
    .megamenu .pages-box h6{
        padding: 3px 5px;
    }
+   
    .mega-col-1 li a{
 padding: 0px 0px;
    }
@@ -1240,6 +1254,9 @@ padding: 0px 0px;
     left: 80px;
     top: 10px;
     
+}
+.team-items{
+    margin: 0 auto;
 }
 .success-rate {
     display: inline-flex;
@@ -1350,6 +1367,12 @@ padding: 0px 0px;
     padding-top: 10px;
     
 }
+*, ::after, ::before {
+    box-sizing: none; 
+}
+.megamenu h6{
+    margin-bottom: .2rem;
+}
 }
 
 @media (min-width: 640px){
@@ -1364,18 +1387,42 @@ padding: 0px 0px;
         margin-bottom: 30px;
     }
     .team-area .thumb img{
-        width: 440px;
+        width: 25rem;
         
         height: auto;
     }
     .team-area{
         padding: 50px 0;
     }
-    
+    .carousel-indicators-test [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: transparent;
+        margin: 10px 5px;
+        display: block;
+        border: 3px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        display: inline-flex;
+        z-index: 10;
+        top: 280px;
+        float: right;
+        right: 50px;
+    }
     
 
 }
-
+@media (min-width: 768px) { 
+    .team-items{
+        margin: 0 auto;
+    }
+    .team-area .thumb img{
+        width: 20rem;
+        
+        height: auto;
+    }
+ }
 @media (min-width:992px){
     .pages-box .title{
         color: #333333;
@@ -1436,3 +1483,5 @@ padding: 0px 0px;
         }
 }
 
+@media (min-width: 1024px) { ... }
+@media (min-width: 1280px) { ... }
